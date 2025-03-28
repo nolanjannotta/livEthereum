@@ -37,7 +37,7 @@ import (
 
 const (
 	host = "localhost"
-	port = "2222"
+	port = "2226"
 )
 
 type client struct {
