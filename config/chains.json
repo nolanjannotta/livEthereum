@@ -27,16 +27,21 @@
         {
             "name": "Optimism",
             "id": "10",
-            "wss": "wss://optimism.drpc.org",
+            "wss": "wss://optimism-rpc.publicnode.com",
             "nativeCurrency": "Eth"
         },
         {
             "name": "Polygon",
             "id": "137",
-            "wss": "wss://polygon.drpc.org",
+            "wss": "wss://polygon-bor-rpc.publicnode.com",
             "nativeCurrency": "MATIC"
+        },
+        {
+            "name": "Blast",
+            "id": "81457",
+            "wss": "wss://blast-rpc.publicnode.com",
+            "nativeCurrency": "ETH"
         }
-
 
     ]
 }

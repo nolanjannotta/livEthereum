@@ -36,7 +36,7 @@ import (
 )
 
 const (
-	host = "0.0.0.0"
+	host = "localhost"
 	port = "2226"
 )
 
@@ -195,7 +195,7 @@ func main() {
 
 	s, err := wish.NewServer(
 		wish.WithAddress(net.JoinHostPort(host, port)),
-		wish.WithHostKeyPath(fmt.Sprint(home, "/.ssh/livethereum")),
+		wish.WithHostKeyPath(fmt.Sprint(home, "/.ssh/livethereum/livethereum")),
 		wish.WithMiddleware(
 			bubbletea.MiddlewareWithProgramHandler(a.ProgramHandler, termenv.ANSI256),
 			activeterm.Middleware(), // Bubble Tea apps usually require a PTY.

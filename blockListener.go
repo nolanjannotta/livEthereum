@@ -156,6 +156,8 @@ func ethClient(a *app, chainIndex int) {
 	// }
 	headers := make(chan *types.Header)
 
+	// client := wssclient.Client()
+
 	sub, err := wssclient.SubscribeNewHead(context.Background(), headers)
 	a.chainIdToInfo[chain.Id].sub = sub
 	if err != nil {
