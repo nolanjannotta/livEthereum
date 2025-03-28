@@ -1,0 +1,26 @@
+{
+  "profiles": [
+    {
+      "name": "eoa",
+      "accounts": [
+        {
+          "address": "0x9b2A5DdE036c4798A8C68B92ef3fA1cca1F8C3Aa",
+          "name": "nolan"
+        },
+        {
+            "address": "0x887e4cCaE8717e05C39aCfC2210293ac8DD9f2a2",
+            "name": "recursive trees"
+          }
+      ]
+    },
+    {
+      "name": "nft",
+      "accounts": [
+        {
+          "address": "0x952BbDED48D7662Abb25A8CdF7541663CA992B88",
+          "name": "onchainexperiments"
+        }
+      ]
+    }
+  ]
+}

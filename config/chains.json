@@ -1,0 +1,42 @@
+{
+    "chains": [
+        {
+            "name": "Base",
+            "id": "8453",
+            "wss": "wss://base.callstaticrpc.com",
+            "nativeCurrency": "Eth"
+        },
+        {
+            "name": "ApeChain",
+            "id": "33139",
+            "wss": "wss://apechain.drpc.org",
+            "nativeCurrency": "Ape"
+        },
+        {
+            "name": "Mainnet",
+            "id": "1",
+            "wss": "wss://ethereum.callstaticrpc.com",
+            "nativeCurrency": "Eth"
+        },
+        {
+            "name": "Arbitrum One",
+            "id": "42161",
+            "wss": "wss://arbitrum.callstaticrpc.com",
+            "nativeCurrency": "Eth"
+        },
+        {
+            "name": "Optimism",
+            "id": "10",
+            "wss": "wss://optimism.drpc.org",
+            "nativeCurrency": "Eth"
+        },
+        {
+            "name": "Polygon",
+            "id": "137",
+            "wss": "wss://polygon.drpc.org",
+            "nativeCurrency": "MATIC"
+        }
+
+
+    ]
+}
