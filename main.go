@@ -188,9 +188,14 @@ func main() {
 
 	// a.configureProfiles()
 
+	home, err := os.UserHomeDir()
+	if err != nil {
+		panic(err)
+	}
+
 	s, err := wish.NewServer(
 		wish.WithAddress(net.JoinHostPort(host, port)),
-		wish.WithHostKeyPath(".ssh/id_ed25519"),
+		wish.WithHostKeyPath(fmt.Sprint(home, "/.ssh/livethereum")),
 		wish.WithMiddleware(
 			bubbletea.MiddlewareWithProgramHandler(a.ProgramHandler, termenv.ANSI256),
 			activeterm.Middleware(), // Bubble Tea apps usually require a PTY.
